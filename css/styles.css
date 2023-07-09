@@ -369,3 +369,11 @@ ul.links-items > li > a:hover{
   font-size: 18px;
   margin-right: 5px;
 }
+hr {
+    margin: 0 230px;
+}
+.copyrights {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
