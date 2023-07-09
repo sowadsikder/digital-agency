@@ -1,0 +1,32 @@
+/* universel styles start */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-align: center;
+}
+a{
+    text-decoration: none;
+}
+
+/* nav style start */
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgray;
+    width: 100%;
+    padding: 20px;
+}
+ul.rights-list {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+}
+nav > ul > li  a {
+    text-transform: capitalize;
+    color: black;
+    font-style: italic;
+    font-weight: 800;
+}
