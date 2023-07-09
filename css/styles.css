@@ -1,32 +1,94 @@
 /* universel styles start */
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    -webkit-box-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-align: center;
 }
-a{
-    text-decoration: none;
+body {
+  font-family: "Poppins", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  font-family: "Oswald", sans-serif;
+}
+a {
+  text-decoration: none;
 }
 
 /* nav style start */
 nav {
-    display: flex;
-    justify-content: space-around;
-    background-color: lightgray;
-    width: 100%;
-    padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  background-color: lightgray;
+  width: 100%;
+  padding: 20px;
+}
+.logo img {
+    width: 200px;
 }
 ul.rights-list {
-    display: flex;
-    gap: 20px;
-    list-style: none;
-    align-items: center;
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  align-items: center;
 }
-nav > ul > li  a {
-    text-transform: capitalize;
-    color: black;
-    font-style: italic;
-    font-weight: 800;
+nav > ul > li a {
+  text-transform: capitalize;
+  color: black;
+
+  font-size: 20px;
+  font-weight: 800;
+}
+
+/* banner Section style start */
+
+section.banner {
+  background-image: url("../asset/image/background.jpg"), linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-blend-mode: overlay;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+h1.banner-title span {
+  color: rgb(245, 44, 44);
+}
+
+h1.banner-title {
+  font-size: 86px;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 20px;
+}
+p.bnaner-description {
+  color: #fff;
+  font-size: 20px;
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 20px;
+}
+button.btn-primary {
+  color: #fff;
+  background: rgb(245, 44, 44);
+  padding: 18px 35px;
+  border: none;
+  border-radius: 10px;
+  margin-right: 30px;
+}
+button.btn-primary-light {
+  font-weight: 800;
+  padding: 15px 35px;
+  border: 1px solid rgb(245, 44, 44);
+  border-radius: 10px;
 }
