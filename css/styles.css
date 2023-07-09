@@ -37,12 +37,13 @@ nav {
   color: cyan;
 }
 .logo p {
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 800;
   text-transform: uppercase;
+  margin-top: -1px;
 }
 .logo img {
-  width: 200px;
+  width: 150px;
 }
 ul.rights-list {
   display: flex;
@@ -53,9 +54,11 @@ ul.rights-list {
 nav > ul > li a {
   text-transform: capitalize;
   color: black;
-
   font-size: 20px;
   font-weight: 800;
+}
+nav > ul > li a:hover{
+  color: rgb(245, 44, 44);
 }
 
 /* banner Section style start */
@@ -185,9 +188,9 @@ button.author-btn {
   margin-left: 25px;
   border: 1px solid rgb(245, 44, 44);
 }
-button.author-btn:hover{
-    background-color:rgb(245, 44, 44);
-    color:#fff
+button.author-btn:hover {
+  background-color: rgb(245, 44, 44);
+  color: #fff;
 }
 
 .service-box {
@@ -249,10 +252,10 @@ button.apoinment-btn {
   border-radius: 30px;
   border: 1px solid gray;
 }
-button.apoinment-btn:hover{
-    color:rgb(245, 44, 44);
-    transform: scale(1.1);
-    transition: 0.3s ease;
+button.apoinment-btn:hover {
+  color: rgb(245, 44, 44);
+  transform: scale(1.1);
+  transition: 0.3s ease;
 }
 
 /* Blog section styling start */
@@ -339,10 +342,10 @@ footer {
   font-size: 25px;
   margin-top: 25px;
 }
-.social-media-icons i:hover{
-    color:rgb(245, 44, 44);
-    transform: scale(1.3);
-    transition: .3s ease-in;
+.social-media-icons i:hover {
+  color: rgb(245, 44, 44);
+  transform: scale(1.3);
+  transition: 0.3s ease-in;
 }
 h3.footer-title {
   font-size: 30px;
@@ -357,8 +360,8 @@ ul.links-items > li > a {
   color: white;
   font-size: 20px;
 }
-ul.links-items > li > a:hover{
-    color:rgb(245, 44, 44);
+ul.links-items > li > a:hover {
+  color: rgb(245, 44, 44);
 }
 .Contact-Information p {
   font-size: 18px;
@@ -370,10 +373,10 @@ ul.links-items > li > a:hover{
   margin-right: 5px;
 }
 hr {
-    margin: 0 230px;
+  margin: 0 230px;
 }
 .copyrights {
-    text-align: center;
-    font-size: 18px;
-    margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
 }
